@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #f3f4f6;
+  background: #222;
   font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 20px;
@@ -18,6 +18,11 @@ body {
 
 .btn {
   letter-spacing: 1px;
+}
+
+#searchBtn {
+  background-color: #1db954;
+  border: none;
 }
 
 .login {
@@ -42,6 +47,7 @@ body {
 
 .main-heading {
   margin: 2rem 0;
+  color: #1db954;
 }
 
 .hide {
